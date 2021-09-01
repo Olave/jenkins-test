@@ -8,6 +8,7 @@
   <artifactId>jenkins-test</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
+    <module>jenkins-ci-test</module>
     <module>jenkins-github-webhook</module>
   </modules>
 

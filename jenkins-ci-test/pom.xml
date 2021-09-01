@@ -8,7 +8,7 @@
         <version>2.0.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <groupId>com.lancelot.jenkins</groupId>
     <artifactId>jenkins-ci-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -43,7 +43,6 @@
     </dependencies>
 
     <build>
-<!--        <finalName>ROOT</finalName>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
