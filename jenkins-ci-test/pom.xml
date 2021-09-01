@@ -41,4 +41,21 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>ROOT</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20.1</version>
+                <configuration>
+                    <!-- 跳过失败的单元测试 -->
+<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+                    <!-- 编译不执行测试用例，等价于<skipTests>true</skipTests> -->
+                    <skip>false</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
