@@ -6,7 +6,6 @@
 
   <groupId>com.lancelot.jenkins</groupId>
   <artifactId>jenkins-test</artifactId>
-  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>jenkins-github-webhook</module>
