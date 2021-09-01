@@ -23,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class JenkinsCITest01 {
+public class JenkinsCI01Test {
 
     //使用@LocalServerPort将端口注入进来
     @LocalServerPort
