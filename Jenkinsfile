@@ -27,9 +27,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('junit') {
       steps {
-        publishHTML(target: '**/target/surefire-reports/*')
+        junit '**/target/surefire-reports/*.xml'
       }
     }
 
