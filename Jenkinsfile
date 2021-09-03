@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('stage 1') {
       steps {
-        sh 'echo $a'
+        bat 'echo 11'
       }
     }
 
     stage('stage2') {
       steps {
-        sh 'echo \'step 2\''
+        bat 'telnet hadoop01 3306'
       }
     }
 
