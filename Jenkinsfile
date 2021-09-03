@@ -9,7 +9,7 @@ pipeline {
 
     stage('stage2') {
       steps {
-        bat 'telnet hadoop01 3306'
+        bat 'echo 2'
       }
     }
 
